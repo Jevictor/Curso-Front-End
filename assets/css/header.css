@@ -1,0 +1,71 @@
+header section {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li a {
+  margin: 0 15px;
+  color: #3399cc;
+}
+
+.btn {
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+.btn.btn-laranja {
+  background: #ff6633;
+  color: #fff;
+}
+
+/* CSS Main */
+.sobre-web-design {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre-web-design article {
+  width: 250px;
+}
+
+.sobre-web-design h1 {
+  font-size: 70px;
+  line-height: 90%;
+  font-weight: 400;
+  color: #333366;
+}
+
+.sobre-web-design h2,
+.sobre-web-design p {
+  color: #3399cc;
+}
+
+.sobre-web-design h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 200%;
+}
+
+.sobre-web-design p {
+  margin: 10px 0 40px;
+}
+
+.sobre-web-design figcaption img {
+  width: 700px;
+}
+
+/* CSS Footer */
+footer ul li {
+  margin: 0 30px 0 0;
+}
+
+footer ul li img {
+  width: 30px;
+}
